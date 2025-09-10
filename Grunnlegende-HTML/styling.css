@@ -3,6 +3,7 @@
   --basic-red: rgb(158, 23, 23);
 }
 body {
+  background-color: aquamarine;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;

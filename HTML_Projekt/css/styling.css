@@ -26,11 +26,38 @@ body {
   display: inline-block;
 }
 
-/* dette er en kommentar */
+/* hero section */
 .deal-section {
-  background-color: var(--basic-red);
+  background-image: url("https://picsum.photos/200/300?grayscale");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: var(--basic-grey);
   padding: 1rem;
+  position: relative;
+  height: 50vh;
+  min-height: 200px;
+ 
+  /*img{
+    width: 100%;
+  }
+
+  h2, p, a{
+    position: absolute;   
+
+  }
+  p{
+    top: 63;
+
+  }
+  a{
+    top:160;
+  }*/
 }
+
+
+
+
 
 #mainlogo {
   font-size: 40px;
@@ -65,12 +92,35 @@ aside {
 }
 
 main {
-  width: 70%;
-  float: left;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 aside {
   width: 25%;
   float: right;
   background-color: #f4f4f4;
+}
+
+.btn{
+display: inline-block;
+background-color: #4e4b4b;
+color: aliceblue;
+padding: 1rem;
+border: none;
+}
+
+
+.side-container{
+  background-color: var(--basic-grey);
+  padding: 1rem;
+
+  form{
+    input{
+      display: block;
+      padding: 1rem;
+      margin: 0.4rem 0;
+    }
+  }
 }

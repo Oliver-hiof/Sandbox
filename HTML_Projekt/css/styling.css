@@ -3,6 +3,9 @@
   --basic-red: rgb(48, 48, 66);
 }
 
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(255, 255, 255);
   font-family: Arial, sans-serif;
@@ -94,8 +97,18 @@ aside {
 main {
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
+  margin: 1rem auto;
+  section {
+    h2{
+      text-align: center;
+    }
+    article{
+      margin: 0 auto;
+    }
+  }
 }
+
+
 
 aside {
   width: 25%;
@@ -123,4 +136,17 @@ border: none;
       margin: 0.4rem 0;
     }
   }
+}
+
+.age-check{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer{
+  background-color: rgb(68, 58, 58);
+  color: #d1cdcd;
+  padding: 1rem;
+  min-height: 150px;
 }

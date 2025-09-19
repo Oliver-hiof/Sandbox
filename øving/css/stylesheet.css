@@ -13,7 +13,7 @@ body {
 }
 
 #globalheader {
-  bbackground-image: url("https://picsum.photos/1200/300");
+  background-image: url("https://picsum.photos/1200/300");
   background-size: cover;
   background-position: center;
   height: 300px;
